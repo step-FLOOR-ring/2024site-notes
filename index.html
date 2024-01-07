@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes@example.com</title>
+    <link rel="stylesheet" href="css/index.css"> 
+</head>
+<body>
+
+    <div class="terminal">
+        <div class="terminal-header">
+            <h2>ascii<br>
+                art<br>
+                goes<br>
+                here<br>
+                -----<br></h2>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+            <p>notes@example.com:$ echo "\n\nonline notes, $instructions\n\n"</p>
+            <br><p>online notes, 2x click to remove item, enter to add.</p><br><br>
+
+            <ul class="note-list"></ul>
+
+            <button id="saveButton">save</button>
+            <em><a href="https://example.com" style="color: #56f0fe; text-decoration: none;">home<br></a></em>
+        </div>
+        <div class="input-line">
+            <div class="prompt">notes@example.com:$ </div>
+            <input type="text" class="input-field" id="userInput" placeholder="..." style="font-family: 'Courier New', monospace; font-size: small;">
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
